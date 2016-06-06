@@ -379,7 +379,7 @@ void Command::setSMOptions(sm_options& sm_opt, const po::variables_map& values)
                     }
                     catch(boost::bad_any_cast const& e) {
                         cerr << "Could not process option " << key
-                            << " .. skippking." << endl;
+                            << " .. skipping." << endl;
                         continue;
                     }
                 }
