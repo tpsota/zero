@@ -6,6 +6,7 @@
 #include <chrono>
 #include <thread>
 #include <functional>
+#include <random>
 
 #include <boost/program_options.hpp>
 namespace po = boost::program_options;
